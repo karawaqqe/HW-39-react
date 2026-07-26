@@ -1,0 +1,76 @@
+.authCard {
+  width: min(440px, 100%);
+  margin: 0 auto;
+  padding: 34px;
+  border: 1px solid rgba(23, 33, 31, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 24px 60px rgba(20, 52, 46, 0.12);
+}
+
+.title {
+  margin: 0 0 24px;
+  color: #17211f;
+  font-size: 32px;
+}
+
+.form {
+  display: grid;
+  gap: 18px;
+}
+
+.label {
+  display: grid;
+  gap: 8px;
+  color: #38504a;
+  font-weight: 800;
+}
+
+.input {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #c8d5d1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #17211f;
+  font: inherit;
+  outline: none;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.input:focus {
+  border-color: #147a6c;
+  box-shadow: 0 0 0 4px rgba(20, 122, 108, 0.14);
+}
+
+.error {
+  margin: 0;
+  color: #b42318;
+  font-weight: 700;
+}
+
+.button {
+  min-height: 46px;
+  border: 0;
+  border-radius: 8px;
+  background: #147a6c;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.button:hover:not(:disabled) {
+  background: #0d665a;
+  transform: translateY(-1px);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}

@@ -1,0 +1,25 @@
+.authNav {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid rgba(20, 122, 108, 0.18);
+  border-radius: 8px;
+  color: #147a6c;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.link:hover,
+.active {
+  background: #147a6c;
+  color: #ffffff;
+}

@@ -1,0 +1,25 @@
+.label {
+  display: grid;
+  gap: 8px;
+  color: #38504a;
+  font-weight: 800;
+}
+
+.input {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid #c8d5d1;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #17211f;
+  font: inherit;
+  outline: none;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.input:focus {
+  border-color: #147a6c;
+  box-shadow: 0 0 0 4px rgba(20, 122, 108, 0.14);
+}

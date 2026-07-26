@@ -1,0 +1,61 @@
+.list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border: 1px solid rgba(23, 33, 31, 0.08);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.name,
+.number,
+.empty {
+  margin: 0;
+}
+
+.name {
+  color: #17211f;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.number {
+  margin-top: 4px;
+  color: #5d726d;
+  font-weight: 700;
+}
+
+.empty {
+  color: #5d726d;
+  font-weight: 700;
+}
+
+.button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #f2ddd9;
+  color: #9b271d;
+  cursor: pointer;
+  font-weight: 900;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease;
+}
+
+.button:hover {
+  background: #b42318;
+  color: #ffffff;
+}
